@@ -8,44 +8,44 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-      href=style.css
+      href="style.css"
     />
     <style>
       .box {
         width: 100%;
         height: 100px;
         margin: 5px 10px;
-        background-color: violet;
+      }
+      .center {
+        position: center; text-align: center;
       }
     </style>
   </head>
 
-  <body>
-    <h1>Russell Salcido</h1>
+  <body class="center">
+    <h1  style="background-color: orchid;">Russell Salcido</h1>
 
-    <button type="button">About</button>
-    <button type="button">Portfolio</button>
-    <button type="button">Contact</button>
+    <button type="button" class="btn btn-link">About</button>
+    <button type="button" class="btn btn-link">Portfolio</button>
+    <button type="button" class="btn btn-link">Contact</button>
 
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-            </div>
-          </div>    
+    <div class="box">
+      <h2>Portfolio</h2>
+      <br>
+      <div class="row">
+        <div class="col-sm">
+            "All About Me"
+        </div>
+        <div class="col-sm">
+          "Scratch - Cat Pew"
+        </div>
+        <div class="col-sm">
+          "Refacter"
+        </div>
+      </div>
+    </div>
 
-
-
-    
-    
-        <script
+    <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
