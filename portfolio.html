@@ -17,33 +17,32 @@
         margin: 5px 10px;
       }
       .center {
-        position: center; text-align: center;
+        position: center;
+        text-align: center;
+      }
+      .bg-warning {
       }
     </style>
   </head>
 
-  <body class="center">
-    <h1  style="background-color: orchid;">Russell Salcido</h1>
+  <body>
 
-    <button type="button" class="btn btn-link">About</button>
-    <button type="button" class="btn btn-link">Portfolio</button>
-    <button type="button" class="btn btn-link">Contact</button>
-
-    <div class="box">
-      <h2>Portfolio</h2>
-      <br>
-      <div class="row">
-        <div class="col-sm">
-            "All About Me"
-        </div>
-        <div class="col-sm">
-          "Scratch - Cat Pew"
-        </div>
-        <div class="col-sm">
-          "Refacter"
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <h1
+        style="font-family: Arial, Helvetica, sans-serif;"
+        class="p-3 mb-2 bg-warning text-dark"
+        class="d-flex align-items-start" 
+      >
+        Russell Salcido
+      </h1>
+      <div class="navbar-expand-md navbar-expand" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Portfolio</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
         </div>
       </div>
-    </div>
+    </nav>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
