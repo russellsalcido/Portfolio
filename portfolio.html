@@ -20,22 +20,25 @@
         position: center;
         text-align: center;
       }
-      .bg-warning {
+      .topnav a {
+        align-self:flex-end;
+      }
+      .h1 {
+        text-shadow: 3px 4px rgba(43, 42, 42, 0.158);
+        font-weight:bolder;        
       }
     </style>
   </head>
 
   <body>
-
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-dark bg-dark p-0 bg-primary">
         <h1
-        style="font-family: Arial, Helvetica, sans-serif;"
-        class="p-3 mb-2 bg-warning text-dark"
-        class="d-flex align-items-start" 
-      >
-        Russell Salcido
-      </h1>
-      <div class="navbar-expand-md navbar-expand" id="navbarNavAltMarkup">
+          style="font-family:Verdana, Geneva, Tahoma, sans-serif; width: 600px; text-align: center;"
+          class="h1 p-3 mb-0 bg-warning text-dark d-flex-shrink-1"    
+        >
+          Russell Salcido
+        </h1>
+      <div class="navbar-expand .topnav a" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="#">About</a>
           <a class="nav-item nav-link" href="#">Portfolio</a>
