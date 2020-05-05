@@ -11,57 +11,61 @@
       href="style.css"
     />
     <style>
-      .box {
-        width: 50%;
-        height: 1000px;
-        background-color:white
-        
-      }
-      .center {
-        position: center;
-        text-align: center;
-      }
-      .topnav a {
-        align-self:flex-end;
-      }
-      .h1 {
+    body {
+        background-color: lightgrey;
+    }
+    .box1 {
+        width: 1050px;
+        height: 2000px;
+        background-color:rgb(249, 250, 249);
+    }
+    .box2 {
+        margin-top: 30px;
+        width: 400px;
+        height: 400px;
+        background-color:rgb(15, 230, 15);
+        float: left;
+
+     }
+    .topnav a {
+        align-self: flex-end;
+    }
+    .h1 {
         text-shadow: 3px 4px rgba(43, 42, 42, 0.158);
-        font-weight:bolder;        
-      }
-      .nav-items {
-      }
+        font-weight: bolder;       
+    }
     </style>
   </head>
 
   <body>
       <nav class="navbar navbar-dark bg-dark p-0 bg-primary">
-        <h1
-          style="font-family:Verdana, Geneva, Tahoma, sans-serif; width: 600px; text-align: center;"
-          class="h1 p-3 mb-0 bg-warning text-dark d-flex-shrink-1"    
-        >
-          Russell Salcido
-        </h1>
-      <div class="navbar-expand topnav a" id="navbarNavAltMarkup">
-        <div class="navbar-nav pl-sm-5, pr-md-5">
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Portfolio</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
-        </div>
-      </div>
-      <div class="container-fluid">
+            <h1
+                style="font-family:Verdana, Geneva, Tahoma, sans-serif; width: 600px; text-align: center;"
+                class="h1 p-3 mb-0 bg-warning text-dark"
+             >
+                Russell Salcido
+            </h1>
+            <div class="navbar-expand topnav a" id="navbarNavAltMarkup">
+                <div class="navbar-nav pl-sm-5, pr-md-5">
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
+        </nav>
+        <br>
         <div class="row">
-          <div class="col-sm-3 bg-primary>
+            <div class="container-fluid box1 position-fixed">
+              <div class="col-md-6 img-container-fluid box2">
+                  <img src="http://placekitten.com/200/300" class="img-fluid" alt="Cat">
+              </div>
+              <div class="col-md-6 img-container-fluid box2">
+                  <img src="http://placekitten.com/g/200/300" class="img-fluid" alt="Cat">
+              </div>
+              <div class="col-md-6 container-fluid box2">
+                  <img src="http://placekitten.com/200/300" class="img-fluid" alt="Cat">
+              </div>
+            </div>
         </div>
-          <div class="col-sm-3">
-            <!-- Content -->
-          </div>
-          <div class="col-sm-3">
-            <!-- Content -->
-          </div>
-        </div>
-      </div>
-      
-    </nav>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
