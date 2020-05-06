@@ -1,0 +1,27 @@
+.body {
+    background-color: lightgrey;
+}
+.box1 {
+    width: 70%;
+    height: 2000px;
+    background-color:rgb(249, 250, 249);
+    position: absolute;
+    margin-left: 40px;
+    font-size: 30px;
+  }
+.box2 {
+    background-color: aquamarine;
+    padding: 0px 0px;
+    margin-left: 40px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+ }
+.topnav a {
+    align-self: flex-end;
+}
+.h1 {
+    font-weight: bolder;
+    margin-left: 42px;      
+}
