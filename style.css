@@ -9,6 +9,7 @@ body {
 .navbar-brand {
     font-size: 30px;
     font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-right: 60%;
     flex-direction: row;
 }
@@ -19,16 +20,12 @@ body {
     }    
 }
 
-.container {
-    padding: 0%;
-}
-
 #box {
     min-width: 200px;
     text-align: center;
     font-size: 30px;
     margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .img-fluid {
