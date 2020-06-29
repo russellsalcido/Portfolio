@@ -9,65 +9,33 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
       href="style.css"
-      href="bartek-mazurek-2FCcLBiKRo4-unsplash (1).jpg.jpg"
-      href="image_2966.jpg"
     />
     <link rel="stylesheet" href="style.css">
-    <style>
-    body {
-        background-color: lightgrey;
-    }
-    .box1 {
-        width: 70%;
-        height: 400px;
-        background-color:rgb(249, 250, 249);
-        position: absolute;
-        margin-left: 40px;
-        font-size: 30px;
-      }
-    .box2 {
-        background-color: aquamarine;
-        padding: 0px 0px;
-        margin-left: 40px;
-        margin-right: 5px;
-        margin-bottom: 20px;
-        float: left;
-        position: relative;
-     }
-    .topnav a {
-        align-self: flex-end;
-    }
-    .h1 {
-        font-weight: bolder;
-        margin-left: 42px;      
-    }
-    </style>
   </head>
 
   <body>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand">Russell Salcido</a>
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              <a class="nav-link" href="./index.html">About</a>
-              <a class="nav-link" href="./contact.html">Contact</a>
-       </nav>
-        <br>
-       <div class="container-fluid box1">
-            <div class="row">
-                <div style="padding: 20px 50px;" class="col-md-12 text-dark">
-                        About
-                    <hr style="padding-bottom: 20px;">
-                    <div class="col-md-12">
-                        <img src="Selfie.jpg" alt="Responsive image" style="float: left;">
-                        <p style="font-size: 20px; margin: -20px; padding: 20px;">I am a tireless seeker of knowledge, occassional purveyor of wisdom, an artist, and an   aspiring web developer.
-
-                        In as circuitous a reason as a philosopher is wont to offer, my school of thought is reliant on schooling my thought – thoroughly, regularly; keeping abreast of design, branding, advertising trends and solutions.            
-                        </p>
-                </div>
-              </div>
+    <div class="container-fluid h-100 d-inline-block p-0">
+      <nav class="navbar sticky-top">
+        <a class="navbar-text" style="color: whitesmoke;">Russell Salcido</a>
+        <a class="nav-link" id="links" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link" id="links" href="./index.html">About</a>
+        <a class="nav-link" id="links" href="./contact.html">Contact</a>
+        <p class="head" style="color: lightgray;">Peruse my projects, marvel the magic of code, embrace the 1's & 0's...
+        </p>
+      </nav>
+    <div class="container-fluid box">
+      <img class="img-fluid"src="Selfie.jpg" id="self">
+      <span class="navbar" style="float: left;" id="about-box">I am a tireless seeker of knowledge, occassional purveyor of wisdom, an artist, and an   aspiring web developer.
+      In as circuitous a reason as a philosopher is wont to offer, my school of thought is reliant on schooling my thought – thoroughly, regularly; keeping abreast of design, branding, advertising trends and solutions.            
+      </span>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="container-fluid resume">
+            <a href="https://drive.google.com/file/d/1cu93zr21aa5AWEiH5TdGR57ZSeRa5WzE/view?usp=sharing" id="links">Resume</a>   
           </div>
-       </div>
+        </div>  
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
