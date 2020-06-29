@@ -8,67 +8,35 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"
         href="style.css" href="bartek-mazurek-2FCcLBiKRo4-unsplash (1).jpg.jpg" href="image_2966.jpg" />
      <link rel="stylesheet" href="style.css">   
-    <style>
-        body {
-            background-color: lightgrey;
-        }
-
-        .box1 {
-            width: 70%;
-            height: 500px;
-            background-color: rgb(249, 250, 249);
-            position: absolute;
-            margin-left: 40px;
-            font-size: 30px;
-        }
-
-        .box2 {
-            background-color: aquamarine;
-            padding: 0px 0px;
-            margin-left: 40px;
-            margin-right: 5px;
-            margin-bottom: 20px;
-            float: left;
-            position: relative;
-        }
-
-        .topnav a {
-            align-self: flex-end;
-        }
-
-        .h1 {
-            font-weight: bolder;
-            margin-left: 42px;
-        }
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand">Russell Salcido</a>
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              <a class="nav-link" href="./index.html">About</a>
-              <a class="nav-link" href="./contact.html">Contact</a>
-       </nav>
-    <br>
-    <div class="container-fluid box1">
+    <div class="container-fluid h-100 d-inline-block p-0">
+        <nav class="navbar sticky-top">
+          <a class="navbar-text" style="color: whitesmoke;">Russell Salcido</a>
+          <a class="nav-link" id="links" href="./portfolio.html">Portfolio</a>
+          <a class="nav-link" id="links" href="./index.html">About</a>
+          <a class="nav-link" id="links" href="./contact.html">Contact</a>
+          <p class="head" style="color: lightgray;">Contact me! You will be pleased once you
+          </p>
+        </nav>
+    <div class="container-fluid justify-content-center" id="contact-box">
         <div class="row">
-            <div style="padding: 20px 50px;" class="col-md-12 text-dark">
-                Contact
-                <hr style="padding-bottom: 20px;">
-                <form>
-                    <div class="form-group">
-                        <label for="#">Email address</label>
-                        <input type="email" class="form-control" aria-describedby="emailHelp">
-                        <small id="emailHelp" class="form-text text-muted"></small>
-                    </div>
-                    <div class="form-group">
-                        <label for="#">Message</label>
-                        <input type="message" class="form-control">
-                        <br>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+            <div class="col-sm-6 col-md-12">
+                    <p id="con-mech">Contact Mechanism</p>
+                    <hr style="padding-bottom: 20px;">
+                    <form id="form">
+                        <div class="form-group">
+                            <label for="#">Email address</label>
+                            <input type="email" class="form-control" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="#">Message</label>
+                            <input type="message" class="form-control" id="m1">
+                        </div>
+                    </form>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </div>
     </div>
